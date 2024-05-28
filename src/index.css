@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+#root {
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1280px) {
+  #root {
+    max-width: 90vw;
+  }
+    
+}
